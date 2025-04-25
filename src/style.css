@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.swiper-slide {
+  position: relative;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  padding: 5px !important;
+  height: 100% !important;
+}
+
+.swiper-button-next {
+  background-color: white;
+  border: 1.5px solid #005cff;
+  padding: 15px !important;
+  border-radius: 50px;
+  right: 4px !important;
+  height: 1px !important;
+  width: 4px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-button-prev {
+  background-color: white;
+  border: 1.5px solid #005cff;
+  padding: 15px !important;
+  border-radius: 50px;
+  left: 4px !important;
+  height: 1px !important;
+  width: 4px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.swiper-button-prev:hover {
+  background-color: #005cff;
+}
+
+.swiper-button-prev:hover::after {
+  color: white !important;
+}
+
+.swiper-button-next:hover {
+  background-color: #005cff;
+}
+
+.swiper-button-next:hover::after {
+  color: white !important;
+}
+
+.swiper-button-next::after {
+  content: "➔" !important;
+  font-weight: bolder;
+  font-size: 14px !important; /* Aumenta o tamanho da seta */
+  color: #005cff !important; /* Muda a cor */
+  display: block !important; /* Garante que o elemento seja exibido */
+  position: relative; /* Permite aplicar padding */
+}
+
+.swiper-button-prev::after {
+  content: "➔" !important;
+  font-weight: bolder;
+  font-size: 14px !important; /* Aumenta o tamanho da seta */
+  color: #005cff !important; /* Muda a cor */
+  display: block !important; /* Garante que o elemento seja exibido */
+  position: relative; /* Permite aplicar padding */
+  transform: scaleX(-1);
+}
+
+.divcat {
+  background-image: url("../UntitledProject(5).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  .third {
+    display: none;
+  }
+
+  .mobilethird {
+    display: flex;
+  }
+}
