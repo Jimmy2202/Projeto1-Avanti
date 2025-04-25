@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Projeto1-Avanti/assets/apple-touch-icon-DUaAsN3e.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Projeto1-Avanti/assets/favicon-32x32-DWMotMrK.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/Projeto1-Avanti/assets/favicon-16x16-D6BHzgZN.png" />
+    <link rel="manifest" href="/Projeto1-Avanti/assets/site-BwHFeIBa.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanti Projeto 1</title>
+    <script type="module" crossorigin src="/Projeto1-Avanti/assets/index-IcL9twlE.js"></script>
+    <link rel="stylesheet" crossorigin href="/Projeto1-Avanti/assets/index-9vT_OJoy.css">
+  </head>
+
+  <body class="w-screen h-fit">
+    <div
+      class="divmenumobile min-h-screen fixed left-0 w-fit hidden flex-col bg-white z-30 p-5 gap-5 shadow-xl"
+    >
+      <h1 class="menu-mobile">
+        <i class="bi bi-list scale-110 mr-2 text-blue-700"></i>Menu
+      </h1>
+      <ul
+        class="ulnav-mobile flex flex-col justify-center h-fit items-center w-full gap-5"
+      >
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="border-b border-t-0 border-l-0 border-r-0 w-full p-2">
+          Departamento
+        </li>
+        <li class="w-full p-2">Departamento</li>
+      </ul>
+    </div>
+
+    <div
+      class="depdivmain2 min-h-screen fixed left-36 w-full hidden flex-col bg-white z-20 p-5 gap-5 shadow-xl"
+    >
+      <div
+        class="dep-div2 hidden flex-row gap-5 justify-center items-center sm-custom:text-[2vw] p-4 absolute top-4 left-[3vw]"
+      >
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+      </div>
+      <div
+        class="divcat h-[25%] w-[30%] p-6 bg-cover flex-col gap-10 justify-center items-start rounded-md absolute left-10 bottom-10"
+      >
+        <h1 class="text-white text-[20px]">
+          Confira os <br />Produtos <br /><span
+            >Que <br />acabaram <br />De chegar</span
+          >
+        </h1>
+        <button
+          class="text-white hover:bg-white/[0.3] border-[2px] rounded-xl pt-2 pb-2 pl-5 pr-5"
+        >
+          <a href="#">Ver Todos</a>
+        </button>
+      </div>
+    </div>
+
+    <header class="w-screen gap-5 flex flex-col">
+      <p class="w-screen bg-[#005cff] text-white text-center text-[14px]">
+        Ganhe
+        <span class="bg-purple-700 rounded-md font-semibold pl-1 pr-1"
+          >R$10,00</span
+        >
+        de desconto no seu primeiro pedido. Utilize o cupom
+        <span class="italic">DESCONTO 10</span>
+      </p>
+
+      <!--HEADER MOBILE-->
+      <div
+        class="headmobile hidden sm-custom:flex flex-col gap-5 w-screen h-fit p-4 justify-center items-center"
+      >
+        <div
+          class="flex flex-row gap-3 w-full h-fit justify-between relative items-center"
+        >
+          <i class="bi bi-list scale-125 menulist"></i>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAAAcCAYAAAByIR3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATwSURBVHgB3VvRceM2EH0fKUAdGB1E6QAdxB0cUsGpA+5V4OtA7sCXCphU4HRAd+B04OOOwTloCZC7IGSe7s3syAIXDwvg8ZHU0IAd5zHexhjGcMo+nNeP8TpGh/b4FLm5pqMi/xDrGGKcC+1c8z3awEW+N2xfA+7/jOXaujjWtYLHPxTG/owf++FgRBADnZX9SPRzaAeH98lM3N9W8nlhnkU9IR4bkF/QE7bj1IgzJBy8kbmNPuK6AlubQ5rzFUbkNsEp+skFPqMdOiO3zB9ie0B5MUubaQFlODWuu8Zzl8k5RP5riywUarzYj9+gR0BeUN0Yf2EZjzHvkHB9GeMF2+Awn+gXQ/63JL8T7X+P8YD3mjn4RCG0A3M+jfHHGP+jLZiP9+RPRa4bwyff/4uxhn/xvq9NMaCsaKfoT2jvZp2RU+a72B4K7YR2bkbIr90TbCCsO5kFXvARtqNqnwOWbVNDlLNwh3o4zIXvDPlpzaV2WTOhHgT7vY2G55cRmdxMfqqpEQzVFpBBZ+SyuBjHIVPzFjcjLJ+ovpLnlxBZEJ362E4VZK3czOG6LsafVKiZUAfC/DKZfh9Qd6LeYRs8fgKRyc30sb1WMFRThEBn5LC6mHQtwnY3IzHW75j/lNJX8NxhGzx2FlnA8iKQlRDb3YxzB0N/ma9xsantVKiZYAdhLg6H+Vp0FTxb4LGzyORmenF8DzfrjH21LuZje4/LS1iu5ho3I+TFcS/ac+us4amFx44iC9BZOVlII2rFyTmDoZ/ML7lYOjcv+EOhZoINhLI4vopjryjPa4mnBh47ikxupi/kfaSbdcY+oVCXx/LceuQFSKh3M8KyOHpx/LmSxwqPnUQWoHOxCaQlTmAVJx8bDPlA2cXSDR0y/TzyItziZoRlcTjM5/dQwWOFx04i07rYhI9ws86QywjQuVgo9O/R1s0I6+LwIofjUwWPBR47iCzA5mITSEMuoBUntw2KvBQlFztj2cUmeLR1M4JOHPJlAnl/puXRwmMHkcnN9NDhmm7WKXJShEIdDjoXm9CjnZsR9OLI/VB7qODRwOPKIpNvYQRcCuMlFuGhA+cfk+8sjrU3NPjJ6jPKb2g42N60mMad8Jhwpe0vWH+LgMfx8W8f4x9c1nyNNzR4zXgdXfzOnw9YX8ubgHSxFuEU4xLKTtVhHxebkK5Jj3zNGjcj2BzoiPmV4YQbv1wGtBeYRhSM0qWWY4BNtENh7DMuLz9aBDH+ManZsjkEuzjk/RnHUwXPEjw+UGRyM0/4cYmwRqt7sw42wQboXMzyao08Afrk2CP0bkaoE4f8ofatkqcEjw8SWRAHemwDwSYORs7NrGIdMmM60T5AJ/oU0lG6hFu7QYQ6cfC6SAO4SZHJSXhsQ6snTYtQQ2Y8j/ncAuog35joYvsjdG5GqBeHQ/md/ZsQWUBbF5tAsImEsfQPEG6lbyomFkSf4SDUw2EuWP7+pByDsE0cATcsMrlwHm2QE0zN70k1LpYL879mZeCw/gT+WuhL2C6O3P3ZTYisdFPbAgS7gGsutUs3x8x1j3ZwuLxE5iJ3Msn7ulpxPCvGssAJPstDUQmzk3ua/NLrJbVIb1otAg6wnVkOl4s/XcYCtm/C0pi8gDyv6aTgz9ImpWuxxVVdwkNog+kkHdBGA5Tju9ZGbOW/dl17oNWcWq/N1fi+A2SU8n+TuW6QAAAAAElFTkSuQmCC" alt="" />
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFeSURBVHgBtVXLUcMwEH2AC/CVE+oAU0F05AYd4A6gBNOBOyBUAFTgpALoID5ySzpItOPdycaRbVmO38ybtXeetPo8r28AWMeN47Pjo+Ot47/jDhdG5vjruFf8xoxI0exuy5wdsrs7XBDXntya4wNmRo7T+5pKMlqWeAr9cdxhuvMMsxNbXskUkLlkR947ItS8khTxsBxXfYXWLXEMnjj+9BWSezKIh+W46hNRt5jSISyPryTRtyNy3D3iCxE+Q8TSIWIMUfFYI4mkR0yXKA33HeGgU7BonFuHDvpCfDcweqIrDMNinM1rNCY66SrJwCC6nwWOpqDjXMK/mBdVaHTrav8QiW8tzatH84ERyKG6L5pfvfwUtRM3agFWvVsEouABucotOZfxu8H5h51zrtCTdX2wBDnnBcdUPdcejWnpawSCJpZjkCOj57KlKz2aM3sPgcSVmqjo0JWqUAVPkQNpAoRUUyBk9QAAAABJRU5ErkJggg==" class="" alt="" />
+          <div
+            class="carrinho bg-blue-700 flex absolute right-0 top-0 text-[10px] text-white text-center h-fit rounded-[200px]"
+          ></div>
+        </div>
+        <form
+          action=""
+          class="flex flex-row formHeader justify-center items-center relative"
+        >
+          <input
+            type="text"
+            class="inputheader w-[95vw] border-[1.5px] p-2 rounded-xl"
+          />
+          <button class="absolute right-[5%]">
+            <i class="bi bi-search hover:text-[#005cff]"></i>
+          </button>
+        </form>
+        <div
+          class="bg-blue-600 text-[10px] rounded-lg text-white w-fit h-fit message absolute sm-custom:bottom-[80%] sm-custom:left-5 bottom-[81.5%] left-[30%]"
+        ></div>
+      </div>
+
+      <!--HEADDESKTOP-->
+      <div class="headdesk sm-custom:hidden w-full flex flex-col">
+        <div class="flex flex-row justify-center items-center gap-16">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAAAcCAYAAAByIR3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATwSURBVHgB3VvRceM2EH0fKUAdGB1E6QAdxB0cUsGpA+5V4OtA7sCXCphU4HRAd+B04OOOwTloCZC7IGSe7s3syAIXDwvg8ZHU0IAd5zHexhjGcMo+nNeP8TpGh/b4FLm5pqMi/xDrGGKcC+1c8z3awEW+N2xfA+7/jOXaujjWtYLHPxTG/owf++FgRBADnZX9SPRzaAeH98lM3N9W8nlhnkU9IR4bkF/QE7bj1IgzJBy8kbmNPuK6AlubQ5rzFUbkNsEp+skFPqMdOiO3zB9ie0B5MUubaQFlODWuu8Zzl8k5RP5riywUarzYj9+gR0BeUN0Yf2EZjzHvkHB9GeMF2+Awn+gXQ/63JL8T7X+P8YD3mjn4RCG0A3M+jfHHGP+jLZiP9+RPRa4bwyff/4uxhn/xvq9NMaCsaKfoT2jvZp2RU+a72B4K7YR2bkbIr90TbCCsO5kFXvARtqNqnwOWbVNDlLNwh3o4zIXvDPlpzaV2WTOhHgT7vY2G55cRmdxMfqqpEQzVFpBBZ+SyuBjHIVPzFjcjLJ+ovpLnlxBZEJ362E4VZK3czOG6LsafVKiZUAfC/DKZfh9Qd6LeYRs8fgKRyc30sb1WMFRThEBn5LC6mHQtwnY3IzHW75j/lNJX8NxhGzx2FlnA8iKQlRDb3YxzB0N/ma9xsantVKiZYAdhLg6H+Vp0FTxb4LGzyORmenF8DzfrjH21LuZje4/LS1iu5ho3I+TFcS/ac+us4amFx44iC9BZOVlII2rFyTmDoZ/ML7lYOjcv+EOhZoINhLI4vopjryjPa4mnBh47ikxupi/kfaSbdcY+oVCXx/LceuQFSKh3M8KyOHpx/LmSxwqPnUQWoHOxCaQlTmAVJx8bDPlA2cXSDR0y/TzyItziZoRlcTjM5/dQwWOFx04i07rYhI9ws86QywjQuVgo9O/R1s0I6+LwIofjUwWPBR47iCzA5mITSEMuoBUntw2KvBQlFztj2cUmeLR1M4JOHPJlAnl/puXRwmMHkcnN9NDhmm7WKXJShEIdDjoXm9CjnZsR9OLI/VB7qODRwOPKIpNvYQRcCuMlFuGhA+cfk+8sjrU3NPjJ6jPKb2g42N60mMad8Jhwpe0vWH+LgMfx8W8f4x9c1nyNNzR4zXgdXfzOnw9YX8ubgHSxFuEU4xLKTtVhHxebkK5Jj3zNGjcj2BzoiPmV4YQbv1wGtBeYRhSM0qWWY4BNtENh7DMuLz9aBDH+ManZsjkEuzjk/RnHUwXPEjw+UGRyM0/4cYmwRqt7sw42wQboXMzyao08Afrk2CP0bkaoE4f8ofatkqcEjw8SWRAHemwDwSYORs7NrGIdMmM60T5AJ/oU0lG6hFu7QYQ6cfC6SAO4SZHJSXhsQ6snTYtQQ2Y8j/ncAuog35joYvsjdG5GqBeHQ/md/ZsQWUBbF5tAsImEsfQPEG6lbyomFkSf4SDUw2EuWP7+pByDsE0cATcsMrlwHm2QE0zN70k1LpYL879mZeCw/gT+WuhL2C6O3P3ZTYisdFPbAgS7gGsutUs3x8x1j3ZwuLxE5iJ3Msn7ulpxPCvGssAJPstDUQmzk3ua/NLrJbVIb1otAg6wnVkOl4s/XcYCtm/C0pi8gDyv6aTgz9ImpWuxxVVdwkNog+kkHdBGA5Tju9ZGbOW/dl17oNWcWq/N1fi+A2SU8n+TuW6QAAAAAElFTkSuQmCC" alt="" />
+          <form
+            action=""
+            class="flex flex-row formHeader justify-center items-center mr-[13vw] relative"
+          >
+            <input
+              type="text"
+              class="inputheader w-[32vw] border-[1.5px] p-2 rounded-xl"
+            />
+            <button class="absolute right-[5%]">
+              <i class="bi bi-search hover:text-[#005cff]"></i>
+            </button>
+          </form>
+          <div
+            class="bg-blue-600 text-[10px] rounded-lg text-white w-fit h-fit message absolute bottom-[81.5%] left-[30%]"
+          ></div>
+          <div
+            class="flex flex-row justify-center items-center relative w-fit h-11 gap-2 p-1"
+          >
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG6SURBVHgBtVXbUcJAFD2byaczUkI6ICWECsQ/5TFCBWoFSgWBCuCDQf/UCkwJsQLTAfEfuN59MImQDYnRM5PdTbJ75uzec+8KlGFAAbcPEPBBaPE45j7GFhM8i8S2TFgJhzRngpF5i/lJ+d3jFZ4aA2MsxWt10iGFTHDHowgbXpxX1aMRHIRqvEMHKxHjJK7I420T+vRpnSOPRc4Z0HvRb+foi6sUyj2MYcNSRJC7AAKMqHWaFGjnFtpBeFP9hoNYgTRVbYGCHxCw/i8i/bApOEDbzEuqkEamD2GD9m9XzS3w6zGpPssZP76KrnRDHtfU5a2/GJWFwRQlaqbc3iKvPsuslLNqjKc65t9DG/1GqQaTCT6/LUd9h2lZmv4LjpV22UpnJyOfocDPGWmPfJPTAerJSvicF0w+yT5JyIi6mJsgRCpbHJMEZdjyjgQuTOWKmaODhUh1ARnSmqO9Nv6rjwE9miIUaqV9rpuC6+aOLbISC/wWumIFzOM5xntJI0KNGbTMS5lRvjrsptggNqSeg78G4XxP2kJTOIZD4MvFvoJbrobK0LGR91bsqkojPVrX9Icgddvey4B/A1oCmVWhoYM0AAAAAElFTkSuQmCC" class="" alt="" />
+            <div class="">
+              <p class="text-[10px] font-semibold">Olá,<br />Nome Cliente!</p>
+            </div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFeSURBVHgBtVXLUcMwEH2AC/CVE+oAU0F05AYd4A6gBNOBOyBUAFTgpALoID5ySzpItOPdycaRbVmO38ybtXeetPo8r28AWMeN47Pjo+Ot47/jDhdG5vjruFf8xoxI0exuy5wdsrs7XBDXntya4wNmRo7T+5pKMlqWeAr9cdxhuvMMsxNbXskUkLlkR947ItS8khTxsBxXfYXWLXEMnjj+9BWSezKIh+W46hNRt5jSISyPryTRtyNy3D3iCxE+Q8TSIWIMUfFYI4mkR0yXKA33HeGgU7BonFuHDvpCfDcweqIrDMNinM1rNCY66SrJwCC6nwWOpqDjXMK/mBdVaHTrav8QiW8tzatH84ERyKG6L5pfvfwUtRM3agFWvVsEouABucotOZfxu8H5h51zrtCTdX2wBDnnBcdUPdcejWnpawSCJpZjkCOj57KlKz2aM3sPgcSVmqjo0JWqUAVPkQNpAoRUUyBk9QAAAABJRU5ErkJggg==" class="" alt="" />
+            <div
+              class="carrinho bg-blue-700 flex absolute right-0 top-2 text-[10px] text-white text-center h-fit rounded-[200px]"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--NAVEGAÇÃO-->
+    <nav class="sm-custom:hidden w-screen mt-5 mb-5">
+      <ul
+        class="ulnavmain flex flex-row justify-center items-center gap-4 text-[14px] p-1 mt-1"
+      >
+        <li
+          class="licategorias font-bold flex flex-row gap-2 hover:text-[#005cff] hover:cursor-pointer"
+        >
+          <i class="bi bi-list scale-110"></i>Todas Categorias
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+        <li
+          class="hover:text-[#005cff] hover:cursor-pointer hover:font-semibold transition ease-in-out duration-100"
+        >
+          Departamento
+        </li>
+      </ul>
+    </nav>
+
+    <div
+      class="categorias1 w-full h-[60vh] hidden flex-row justify-items-start gap-2 shadow-lg relative mb-20"
+    >
+      <ul
+        class="ulnav flex flex-col w-[18vw] h-full overflow-y-auto bg-[#F5F5F5] p-7 gap-3"
+      >
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+        <li>Departamento ></li>
+      </ul>
+      <div
+        class="dep-div hidden flex-row gap-5 ml-10 justify-center items-center p-4 absolute top-1 left-[22vw]"
+      >
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+      </div>
+      <div
+        class="divcat h-[80%] w-[15%] p-6 bg-cover hidden flex-col gap-10 justify-center items-start rounded-md absolute right-10"
+      >
+        <h1 class="text-white text-[20px]">
+          Confira os <br />Produtos <br /><span
+            >Que <br />acabaram <br />De chegar</span
+          >
+        </h1>
+        <button
+          class="text-white hover:bg-white/[0.3] border-[2px] rounded-xl pt-2 pb-2 pl-5 pr-5"
+        >
+          <a href="#">Ver Todos</a>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="categorias2 w-full h-[60vh] hidden flex-row justify-between gap-2 shadow-lg relative mb-20"
+    >
+      <h1 class="text-[18px] absolute top-0 left-[4vw] font-semibold">
+        Departamento
+      </h1>
+      <div
+        class="dep-div-cat flex flex-row gap-5 justify-center items-center p-4 absolute top-4 left-[3vw]"
+      >
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+        <ul class="ul1 flex flex-col gap-3">
+          <li class="text-[#005cff] font-semibold">Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Categoria</li>
+        </ul>
+      </div>
+      <div
+        class="divcat h-[80%] w-[15%] p-6 bg-cover flex flex-col gap-10 justify-center items-start rounded-md absolute right-10"
+      >
+        <h1 class="text-white text-[20px]">
+          Confira os <br />Produtos <br /><span
+            >Que <br />acabaram <br />De chegar</span
+          >
+        </h1>
+        <button
+          class="text-white hover:bg-white/[0.3] border-[2px] rounded-xl pt-2 pb-2 pl-5 pr-5"
+        >
+          <a href="#">Ver Todos</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <main class="w-full h-fit mt-5">
+      <!-- BANNER -->
+      <div
+        class="h-[60vh] sm-custom:w-full border border-red mb-5 sm-custom:hidden"
+      >
+        <img src="/Projeto1-Avanti/assets/UntitledProject-D8OpIsJR.jpg" class="h-full w-full" alt="" />
+      </div>
+
+      <!-- BANNER MOBILE -->
+      <div
+        class="swiper2 !w-full mt-9 mb-20 relative p-0 hidden sm-custom:block min-h-[30vh] overflow-hidden"
+      >
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper !w-full !p-0">
+          <!-- Slides -->
+          <div class="swiper-slide !w-full rounded-lg">
+            <img class="w-full h-full m-auto" src="/Projeto1-Avanti/assets/UntitledProject(8)-DMpfDPQy.jpg" />
+          </div>
+          <div class="swiper-slide !w-full rounded-lg">
+            <img class="w-full h-full m-auto" src="/Projeto1-Avanti/assets/UntitledProject(9)-cE7e37J7.jpg" />
+          </div>
+          <div class="swiper-slide !w-full rounded-lg">
+            <img class="w-full h-full m-auto" src="/Projeto1-Avanti/assets/UntitledProject(10)-BRfRjYSr.jpg" />
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination !absolute !bottom-2 !z-10"></div>
+      </div>
+
+      <!-- CARROSSEL -->
+      <div
+        class="swiper w-[80vw] sm-custom:w-full !h-fit !p-[20px] mt-9 mb-20 !relative"
+      >
+        <div class="w-full flex flex-row justify-between items-center">
+          <p class="text-[20px] font-semibold">Lançamentos</p>
+          <a href="#" class="text-[14px] font-semibold">Ver mais</a>
+        </div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper !h-full border-red-600">
+          <!-- Slides -->
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need pagination -->
+        <div
+          class="swiper-pagination !bottom-0 !absolute sm-custom:!bottom-0"
+        ></div>
+      </div>
+
+      <!-- SEGUNDA SEÇÃO-->
+      <div
+        class="flex sm-custom:flex-col flex-row justify-center items-center w-fit sm-custom:w-full sm-custom:m-0 m-auto gap-4"
+      >
+        <img
+          src="/Projeto1-Avanti/assets/UntitledProject(2)-ChGRCzUs.jpg"
+          class="h-[100vh] w-[40vw] sm-custom:w-full sm-custom:h-[50vh]"
+        />
+        <div
+          class="text-left sm-custom:w-full sm-custom:text-[14px] sm-custom:p-10"
+        >
+          <p class="text-[15px]">
+            <span class="font-bold">LOREM IPSUM<br /><br /></span> Duis
+            consectetur metus nec lacus auctor dignissim.<br />
+            Mauris vitae finibus dui. Mauris laoreet lacus ut<br />
+            eleifend viverra. Cras efficitur volutpat dui, in lobortis<br />
+            metus lacinia sit amet. Sed lacinia pharetra magna, vel<br />
+            pulvinar ligula hendrerit a. Maecenas fringilla porttitor<br />
+            tortor eget lacinia. Donec sollicitudin euismod orci,<br />
+            auctor fringilla magna consequat interdum. Fusce<br />
+            sagittis elit a libero commodo egestas efficitur id<br />
+            augue. <br />
+            <br />
+            Duis consectetur metus nec lacus auctor dignissim.<br />
+            Mauris vitae finibus dui. Mauris laoreet lacus ut<br />
+            eleifend viverra. Cras efficitur volutpat dui, in lobortis<br />
+            metus lacinia sit amet. Sed lacinia pharetra magna, vel<br />
+            pulvinar ligula hendrerit a. Maecenas fringilla porttitor<br />
+            tortor eget lacinia. Donec sollicitudin euismod orci,<br />
+            auctor fringilla magna consequat interdum. Fusce<br />
+            sagittis elit a libero commodo egestas efficitur id<br />
+            augue.
+          </p>
+        </div>
+      </div>
+
+      <!-- TERCEIRA SEÇÃO MOBILE-->
+      <div
+        class="mobilethird w-screen h-fit bg-[#DEDEDE] hidden justify-center items-center mb-20 mt-20 p-5"
+      >
+        <div class="flex flex-col justify-center items-center gap-8">
+          <img
+            src="/Projeto1-Avanti/assets/ef8daecaf8893c25768fa037bfd7d976-BU_2f6y6.png"
+            class="sm-custom:w-[95%]"
+          />
+          <div class="flex flex-col justify-center w-full items-center gap-5">
+            <h1 class="font-bold">LOREM IPSUM</h1>
+            <div
+              class="flex flex-row justify-center items-center gap-3 h-fit w-fit"
+            >
+              <img src="data:image/png;base64,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" class="w-[20%] h-[20%]" />
+              <p class="text-sm text-left">
+                Aenean massa. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem.
+              </p>
+            </div>
+            <div
+              class="flex flex-row justify-center items-center gap-3 h-fit w-fit"
+            >
+              <img src="data:image/png;base64,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" class="w-[20%] h-[20%]" />
+              <p class="text-sm text-left">
+                Aenean massa. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem.
+              </p>
+            </div>
+            <div
+              class="flex flex-row justify-center items-center gap-3 h-fit w-fit"
+            >
+              <img src="data:image/png;base64,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" class="w-[20%] h-[20%]" />
+              <p class="text-sm text-left">
+                Aenean massa. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Donec quam felis,
+                ultricies nec, pellentesque eu, pretium quis, sem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TERCEIRA SEÇÃO-->
+      <div
+        class="third w-screen h-fit bg-[#DEDEDE] flex justify-center items-center mb-20 mt-20 p-10"
+      >
+        <div class="flex flex-row gap-8">
+          <div class="flex flex-col justify-center items-center gap-5">
+            <h1 class="font-bold">LOREM IPSUM</h1>
+            <div class="flex flex-row gap-3 h-fit w-fit">
+              <img src="data:image/png;base64,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" class="w-[100px]" />
+              <p class="text-sm">
+                Aenean massa. Cum sociis natoque <br />
+                penatibus et magnis dis parturient <br />
+                montes, nascetur ridiculus mus. Donec <br />
+                quam felis, ultricies nec, pellentesque <br />
+                eu, pretium quis, sem.
+              </p>
+            </div>
+            <div class="flex flex-row gap-3 h-fit w-fit">
+              <img src="data:image/png;base64,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" class="w-[100px]" />
+              <p class="text-sm">
+                Aenean massa. Cum sociis natoque <br />
+                penatibus et magnis dis parturient <br />
+                montes, nascetur ridiculus mus. Donec <br />
+                quam felis, ultricies nec, pellentesque <br />
+                eu, pretium quis, sem.
+              </p>
+            </div>
+            <div class="flex flex-row gap-3 h-fit w-fit">
+              <img src="data:image/png;base64,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" class="w-[100px]" />
+              <p class="text-sm">
+                Aenean massa. Cum sociis natoque <br />
+                penatibus et magnis dis parturient <br />
+                montes, nascetur ridiculus mus. Donec <br />
+                quam felis, ultricies nec, pellentesque <br />
+                eu, pretium quis, sem.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/Projeto1-Avanti/assets/ef8daecaf8893c25768fa037bfd7d976-BU_2f6y6.png"
+            class="sm-custom:w-[30%]"
+          />
+        </div>
+      </div>
+
+      <!--QUARTA SEÇÃO-->
+      <div
+        class="flex sm-custom:flex-col flex-row justify-center items-center w-fit sm-custom:w-full sm-custom:m-0 m-auto gap-4"
+      >
+        <img
+          src="/Projeto1-Avanti/assets/UntitledProject(2)-ChGRCzUs.jpg"
+          class="h-[100vh] w-[40vw] sm-custom:w-full sm-custom:h-[50vh]"
+        />
+        <div
+          class="text-left sm-custom:w-full sm-custom:text-[14px] sm-custom:p-10"
+        >
+          <p class="text-[15px]">
+            <span class="font-bold">LOREM IPSUM<br /><br /></span> Duis
+            consectetur metus nec lacus auctor dignissim.<br />
+            Mauris vitae finibus dui. Mauris laoreet lacus ut<br />
+            eleifend viverra. Cras efficitur volutpat dui, in lobortis<br />
+            metus lacinia sit amet. Sed lacinia pharetra magna, vel<br />
+            pulvinar ligula hendrerit a. Maecenas fringilla porttitor<br />
+            tortor eget lacinia. Donec sollicitudin euismod orci,<br />
+            auctor fringilla magna consequat interdum. Fusce<br />
+            sagittis elit a libero commodo egestas efficitur id<br />
+            augue. <br />
+            <br />
+            Duis consectetur metus nec lacus auctor dignissim.<br />
+            Mauris vitae finibus dui. Mauris laoreet lacus ut<br />
+            eleifend viverra. Cras efficitur volutpat dui, in lobortis<br />
+            metus lacinia sit amet. Sed lacinia pharetra magna, vel<br />
+            pulvinar ligula hendrerit a. Maecenas fringilla porttitor<br />
+            tortor eget lacinia. Donec sollicitudin euismod orci,<br />
+            auctor fringilla magna consequat interdum. Fusce<br />
+            sagittis elit a libero commodo egestas efficitur id<br />
+            augue.
+          </p>
+        </div>
+      </div>
+
+      <!-- CARROSSEL -->
+      <div
+        class="swiper w-[80vw] sm-custom:w-full !h-fit !p-[20px] mt-9 mb-20 !relative"
+      >
+        <div class="w-full flex flex-row justify-between items-center">
+          <p class="text-[20px] font-semibold">Lançamentos</p>
+          <a href="#" class="text-[14px] font-semibold">Ver mais</a>
+        </div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper !h-full border-red-600">
+          <!-- Slides -->
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+
+          <div class="swiper-slide border border-black/[0.2] rounded-lg">
+            <p
+              class="text-[9px] absolute top-1 left-1 bg-[#00264E] rounded text-white p-1"
+            >
+              NOVO
+            </p>
+            <img
+              class="w-[90%] h-[60%] m-auto"
+              src="/Projeto1-Avanti/assets/7d52d6af45bdbc2b2d315fe332eb521b-Zyoqc1Bh.png"
+            />
+            <h3 class="text-[12px] text-center">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit
+            </h3>
+            <div
+              class="flex flex-row justify-start p-0 items-center gap-2 ml-1"
+            >
+              <p>
+                <span class="line-through text-[12px] text-gray-600"
+                  >R$100,00</span
+                >
+                <br />
+                <span class="no-underline font-semibold">R$79,90</span>
+              </p>
+              <a
+                href="https://www.nike.com.br/snkrs/air-max-1-86-027221.html?cor=51"
+                class="text-[12px] sm-custom:pl-1 sm-custom:pr-1 bg-[#5EC0BE] rounded-md text-white pl-2 pr-2 underline"
+              >
+                10% OFF
+              </a>
+            </div>
+            <p class="text-[12px] ml-1">Ou em até <span>10x de R$7,90</span></p>
+            <button
+              class="comprar-btn w-[100%] rounded-lg bg-[#005CFF] text-white m-auto h-fit pr-2 pl-2 pt-1 pb-1 mt-1 hover:bg-[#1e298b] transition ease-in"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination !absolute !bottom-0"></div>
+      </div>
+
+      <!--QUINTA SEÇÃO-->
+      <div class="w-screen relative sm-custom:h-[40vh]">
+        <img src="/Projeto1-Avanti/assets/UntitledProject(3)-eaaF6I0F.jpg" class="w-[100%] h-[100%]" />
+        <div
+          class="absolute bg-[#005CFF] text-white text-center w-[100%] top-[40%] p-8"
+        >
+          Entre em contato e verifique a disponibilidade na sua região
+        </div>
+      </div>
+
+      <!--NEWSLETTER-->
+      <div
+        class="w-fit h-fit mt-20 m-auto flex flex-col justify-center items-center sm-custom:w-full"
+      >
+        <h1 class="font-bold mb-5">
+          Cadastre-se na nossa <span class="text-[#005CFF]">newsletter</span>
+        </h1>
+        <form
+          class="sm-custom:flex-col sm-custom:h-fit flex flex-row bg-[#DEDEDE] gap-5 justify-center items-center h-[30vh] w-[80vw] p-3 rounded-lg"
+        >
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+            class="rounded-md p-3 placeholder-black"
+          />
+          <input
+            type="email"
+            placeholder="Digite seu email"
+            class="rounded-md p-3 placeholder-black"
+          />
+          <div class="flex flex-row justify-center items-center gap-5">
+            <input
+              type="checkbox"
+              name="checkbox"
+              class="focus:ring-0 h-3 w-3 rounded checked:bg-blue-700 hover:cursor-pointer hover:bg-blue-700 bg-white"
+              id="1"
+            />
+            <p class="text-[12px] sm-custom:text-[10px]">
+              Estou de acordo com a
+              <a href="#" class="underline">Política de Privacidade</a>
+            </p>
+          </div>
+          <button
+            class="bg-[#005CFF] rounded-md text-white font-semibold pl-4 pr-4 pb-2 pt-2 hover:bg-blue-800"
+          >
+            Cadastrar
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="w-screen flex sm-custom:hidden flex-col justify-center items-center relative mt-20 gap-7"
+    >
+      <div
+        class="w-full bg-[#F5F5F5] flex flex-col gap-5 justify-center items-center p-20"
+      >
+        <div
+          class="w-full flex flex-row justify-center items-start gap-20 p-5 text-[12px]"
+        >
+          <img src="data:image/png;base64,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" alt="" class="" />
+          <ul class="flex flex-col">
+            <li><h4 class="font-semibold">Institucional</h4></li>
+            <li><h5>Sobre Nós</h5></li>
+            <li><h5>Nossas Lojas</h5></li>
+            <li><h5>Privacidade e Segurança</h5></li>
+            <li><h5>Termos e Condições</h5></li>
+          </ul>
+          <ul class="flex flex-col">
+            <li><h4 class="font-semibold">Central de Ajuda</h4></li>
+            <li><h5>Fale Conosco</h5></li>
+            <li><h5>Frete e Entrega</h5></li>
+            <li><h5>Trocas e Devoluções</h5></li>
+            <li><h5>Formas de Pagamento</h5></li>
+            <li><h5>FAQ</h5></li>
+          </ul>
+          <ul class="flex flex-col">
+            <li><h4 class="font-semibold">Atendimento</h4></li>
+            <li>
+              <h5>
+                <span class="font-semibold">Telefone:</span> (00) 1234-5678
+              </h5>
+            </li>
+            <li>
+              <h5>
+                <span class="font-semibold">E-mail:</span>
+                exemplo@exemplo.com.br
+              </h5>
+            </li>
+            <li>
+              <h5>
+                <span class="font-semibold">Horário de atendimento:</span><br />
+                Segunda a Sábado: 07h00 às 23h00<br />
+                Domingos e Feriados: 07h00 às 21h00
+              </h5>
+            </li>
+          </ul>
+        </div>
+        <img src="data:image/png;base64,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" alt="" />
+      </div>
+      <div
+        class="w-full flex flex-col justify-center items-center gap-16 bg-white text-center p-16"
+      >
+        <h2 class="text-[12px]">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </h2>
+        <img src="/Projeto1-Avanti/assets/Grupo9962-DIv9tx0z.png" class="w-[20%]" alt="" />
+      </div>
+    </footer>
+
+    <!-- FOOTER MOBILE -->
+    <footer
+      class="hidden sm-custom:flex flex-col w-full justify-center items-center mt-20"
+    >
+      <div
+        class="flex flex-col bg-[#F5F5F5] w-full justify-center items-center"
+      >
+        <div class="p-10">
+          <img src="data:image/png;base64,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" class="w-[90w]" />
+        </div>
+        <ul class="w-full flex flex-col">
+          <li class="lifooter ins p-4 border flex justify-between">
+            Institucional<i
+              class="bi bi-chevron-right righti text-blue-700 font-bold"
+            ></i
+            ><i
+              class="bi bi-chevron-down hidden downi text-blue-700 font-bold"
+            ></i>
+          </li>
+          <ul class="institucional w-full hidden flex-col">
+            <li class="p-4 border">
+              <a href="/sobre-nos" class="text-blue-500 hover:underline"
+                >Sobre Nós</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/nossas-lojas" class="text-blue-500 hover:underline"
+                >Nossas Lojas</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/privacidade" class="text-blue-500 hover:underline"
+                >Privacidade e Segurança</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/termos" class="text-blue-500 hover:underline"
+                >Termos e Condições</a
+              >
+            </li>
+          </ul>
+
+          <li class="lifooter crt p-4 border flex justify-between">
+            Central de Ajuda
+            <i class="bi bi-chevron-right rightc text-blue-700 font-bold"></i
+            ><i
+              class="bi bi-chevron-down hidden downc text-blue-700 font-bold"
+            ></i>
+          </li>
+          <ul class="ajuda w-full hidden flex-col">
+            <li class="p-4 border">
+              <a href="/fale-conosco" class="text-blue-500 hover:underline"
+                >Fale Conosco</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/frete" class="text-blue-500 hover:underline"
+                >Frete e Entrega</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/trocas" class="text-blue-500 hover:underline"
+                >Trocas e Devoluções</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/pagamento" class="text-blue-500 hover:underline"
+                >Formas de Pagamento</a
+              >
+            </li>
+            <li class="p-4 border">
+              <a href="/faq" class="text-blue-500 hover:underline">FAQ</a>
+            </li>
+          </ul>
+
+          <li class="lifooter ate p-4 border flex justify-between">
+            Atendimento
+            <i class="bi bi-chevron-right righta text-blue-700 font-bold"></i
+            ><i
+              class="bi bi-chevron-down hidden downa text-blue-700 font-bold"
+            ></i>
+          </li>
+
+          <ul class="atendimento w-full hidden flex-col">
+            <li class="p-4 border text-blue-500">Telefone: (00) 1234-5678</li>
+            <li class="p-4 border text-blue-500">
+              E-mail: exemplo@exemplo.com.br
+            </li>
+            <li class="p-4 border text-blue-500">
+              Horário de atendimento:<br />
+              Segunda a Sábado: 07h00 às 23h00<br />
+              Domingos e Feriados: 07h00 às 21h00
+            </li>
+          </ul>
+        </ul>
+        <div class="w-full flex justify-center items-center p-10">
+          <img src="data:image/png;base64,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" alt="" />
+        </div>
+      </div>
+      <h2 class="text-[12px] text-center p-5">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+      </h2>
+      <div class="w-full p-7 flex justify-center items-center">
+        <img src="/Projeto1-Avanti/assets/Grupo9962-DIv9tx0z.png" />
+      </div>
+    </footer>
+  </body>
+</html>
